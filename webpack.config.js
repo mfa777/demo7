@@ -22,6 +22,7 @@ module.exports = {
         }),
         new MiniCssExtractPlugin({
             filename: "[name]-webpack.css"
+            // filename: "a-webpack.css"
         })
     ],
     module: {
